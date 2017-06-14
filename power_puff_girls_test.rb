@@ -11,13 +11,13 @@ class PowerPuffGirlTest < Minitest::Test
   end
 
   def test_it_can_have_a_name
-    # skip
+    skip
     hero = PowerPuffGirl.new("Bullet the Powerpuff squirrel")
     assert_equal "Bullet the Powerpuff squirrel", hero.name
   end
 
   def test_it_is_heroic_by_default
-    # skip
+    skip
     hero = PowerPuffGirl.new("Bubbles")
     assert_equal "heroic", hero.personality
     assert_equal true, hero.heroic?
@@ -25,7 +25,7 @@ class PowerPuffGirlTest < Minitest::Test
   end
 
   def test_it_does_not_have_to_be_heroic
-    # skip
+    skip
     hero = PowerPuffGirl.new("Princess Morbucks", "evil")
     assert_equal "evil", hero.personality
     assert_equal false, hero.heroic?
@@ -33,32 +33,30 @@ class PowerPuffGirlTest < Minitest::Test
   end
 
   def test_hero_says_heroic_stuff_when_talking_to_bad_guys
-    # skip
+    skip
     hero = PowerPuffGirl.new("Buttercup")
     talk = "Stop in the name of Justice!"
     assert_equal "!!! HALT, EVIL DOER !!! Stop in the name of Justice!", hero.say_to_bad_guy(talk)
   end
 
   def test_hero_says_other_heroic_stuff_when_talking_to_bad_guys
-    # skip
+    skip
     hero = PowerPuffGirl.new("Buttercup")
     talk = "You're under arrest!"
     assert_equal "!!! HALT, EVIL DOER !!! You're under arrest!", hero.say_to_bad_guy(talk)
   end
 
   def test_hero_says_heroic_stuff_when_talking_to_normal_people
-    # skip
+    skip
     hero = PowerPuffGirl.new("Bunny the 4th Powerpuff Girl")
     talk = "How can I help you?"
     assert_equal "*** Hello Citizen!  How can I help you? ***", hero.say_to_normal_people(talk)
   end
 
   def test_hero_says_other_heroic_stuff_when_talking_to_normal_people
-    # skip
+    skip
     hero = PowerPuffGirl.new("Bunny the 4th Powerpuff Girl")
     talk = "I'll save your kitty!"
     assert_equal "*** Hello Citizen!  I'll save your kitty! ***", hero.say_to_normal_people(talk)
   end
-
-
 end
