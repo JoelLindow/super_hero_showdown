@@ -3,7 +3,8 @@
 ### The Purpose of these exercises
 
 Super Hero Showdown is a set of exercises designed to help new Ruby programmers learn how to use Ruby through the practice of *test driven development*. User will clone down this folder and use exercises in the following order:
-* power_puff_girls_test
+* power_puff_girl_test.rb
+* power_ranger_test.rb
 * MORE EXERCISES COMING SOON
 
 ### How to use the exercises

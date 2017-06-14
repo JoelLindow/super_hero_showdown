@@ -1,7 +1,7 @@
 gem 'minitest', '~> 5.2'
 require 'minitest/autorun'
 require 'minitest/pride'
-require_relative 'power_puff_girls'
+require_relative 'power_puff_girl'
 
 class PowerPuffGirlTest < Minitest::Test
 
