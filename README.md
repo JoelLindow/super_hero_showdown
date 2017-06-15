@@ -2,10 +2,10 @@
 
 ### The Purpose of these exercises
 Super Hero Showdown is a set of exercises designed to help new Ruby programmers learn how to use Ruby through the practice of *test driven development*. User will clone down this folder and use exercises in the following order of difficulty:
-* captain_underpants_test.rb  <--- Super basic class build! Do it in your undies!
-* power_puff_girl_test.rb     <--- Let the cuteness launch your learning!
-* power_ranger_test.rb        <--- It's morphin time! Zordon is calling!
-* freakazoid.rb               <--- It's time to "Freak Out"!
+* captain_underpants_test.rb     <--- Super basic class build! Do it in your undies!
+* power_puff_girl_test.rb        <--- Let the cuteness launch your learning!
+* power_ranger_test.rb           <--- It's morphin time! Zordon is calling!
+* freakazoid.rb                  <--- It's time to "Freak Out"!
 * MORE EXERCISES COMING SOON
 
 #### You will gain the super powers that allow you to:
