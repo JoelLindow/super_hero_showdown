@@ -4,12 +4,26 @@
 Super Hero Showdown is a set of exercises designed to help new Ruby programmers learn how to use Ruby through the practice of *test driven development*. User will clone down this folder and use exercises in the following order of difficulty:
 * captain_underpants_test.rb
   + Super basic class build! Do it in your undies!
+  + This exercise is a simple place to start learning about Ruby Classes and creating basic class objects with attributes.
 * power_puff_girl_test.rb
   + Let the cuteness launch your learning!
+  + This exercise is an introduction to String Interpolation
 * power_ranger_test.rb
   + It's morphin time! Zordon is calling!
-* freakazoid.rb
+  + This exercise is an introduction to the use of Default Values and Conditional Values.
+* freakazoid_test.rb
   + It's time to "Freak Out"!
+  + This exercise is a combination of everything learned so far in the previous 3 exercises.
+* john_wick_test.rb
+  + It would be a shame if you took him out of retirement. But it would be pretty cool too. Can you do it?
+  + This exercise focuses on writing conditional statements and getting conditional returns from your app.
+* superman_test.rb
+  + COMING SOON
+  + Help Superman put bad guys in jail!
+  + This exercise focuses on learning how to use an Array as a data structure.
+* batman_test.rb
+  + COMING SOON!!!!!!!!!!!!
+  + This exercise focuses on learning how to use Hashes as a data structure.
 * MORE EXERCISES COMING SOON
 
 #### You will gain the super powers that allow you to:

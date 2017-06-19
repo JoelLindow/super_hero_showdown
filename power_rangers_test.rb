@@ -51,6 +51,7 @@ class PowerRangerTest < Minitest::Test
     skip
     ranger = PowerRanger.new("White Ranger")
 
+    assert_equal true, ranger.energetic?
     assert ranger.energetic?
 
     ranger.fight

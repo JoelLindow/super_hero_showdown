@@ -32,12 +32,12 @@ class CaptainUnderpantsTest < Minitest::Test
   def test_it_can_tell_you_about_itself
     hero = CaptainUnderpants.new("Captain Underpants", "Underpants", "Tra La La")
 
-    assert_equal "I'm Captain Underpants. I love to wear Underpants. Tra La La", hero.tell_me_about_yourself
+    assert_equal "I'm Captain Underpants. I love to wear Underpants. Tra La La", hero.greeting
   end
 
   def test_it_can_be_a_different_hero_too
     hero = CaptainUnderpants.new("Captain Boxer Shorts", "Boxers", "Shoopty Woop")
 
-    assert_equal "I'm Captain Boxer Shorts. I love to wear Boxers. Shoopty Woop", hero.tell_me_about_yourself 
+    assert_equal "I'm Captain Boxer Shorts. I love to wear Boxers. Shoopty Woop", hero.greeting
   end
 end
