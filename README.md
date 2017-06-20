@@ -23,7 +23,7 @@ Super Hero Showdown is a set of exercises designed to help new Ruby programmers 
   - **Perenthesis are optional in Ruby! We will use them in our test assertions for the sake of you getting used to seeing them when passing data in methods AND making arguments. After all... assertions are nothing but methods used for testing!**
 * batman_test.rb
   - COMING SOON!!!!!!!!!!!!
-  - This exercise focuses on learning how to use Hashes as a data structure.
+  - This exercise focuses on learning how to use Hashes as a data structure. Also, how to add items to an existing data structure.
 * MORE EXERCISES COMING SOON
 
 #### You will gain the super powers that allow you to:
