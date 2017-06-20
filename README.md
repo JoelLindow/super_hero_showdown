@@ -20,7 +20,7 @@ Super Hero Showdown is a set of exercises designed to help new Ruby programmers 
 * superman_test.rb
   - Help Superman put bad guys in jail!
   - This exercise focuses on learning how to use an Array as a data structure. We will also learn a few built in Ruby methods that can be used with the Array Data Structure.
-  - **Perenthesis are optional in Ruby! We will use them in our test assertions for the sake of you getting used to seeing them when passing data in methods AND making arguments. After all... assertions are nothing but methods used for testing!**
+  - **Parenthesis are optional in Ruby! We will use them in our test assertions for the sake of you getting used to seeing them when passing data in methods AND making arguments. After all... assertions are nothing but methods used for testing!**
 * batman_test.rb
   - Help Batman add vehicles to his collection and sidekicks to his team!
   - This exercise focuses on learning how to use Hashes as a data structure. Also, how to add items to an existing data structure.
@@ -35,10 +35,10 @@ Super Hero Showdown is a set of exercises designed to help new Ruby programmers 
 
 ### How to use the exercises
 First make sure to install the Minitest gem (`gem install minitest`). If you're having gem installation issues, follow the error messages and they will guide you to the correct gem installation you may require. These tests only require basic `Minitest` and `Pride`.
-The user SHOULD NOT edit the test files. Only "un-skip" the tests one at a time as they can achieving writing code that makes the tests pass.
-You will need to install the
-Each challenge will begin at the same place, with an error message looking for the user to create the file they will be coding in. For example, `power_puff_girls_test.rb` will be looking for the user to be coding in a required file called `power_puff_girl` within the same folder. You would create this folder from inside the `super_hero_showdown` folder by typing `touch power_puff_girls.rb` and then beginning to run the test file repeatedly as you alter code, until you pass the tests one by one. It's up the you, the user, to `touch` that new `.rb` file and you will get an error saying that the test file can not find the proper file required until you create it.
+The user SHOULD NOT edit the test files. Only "un-skip" the tests one at a time as they write code that makes the tests pass.
+Each challenge will begin at the same place, with an error message looking for the user to create the file they will be coding in. For example, `power_puff_girls_test.rb` will be looking for the user to be coding in a required file called `power_puff_girls` within the same folder. You would create this folder from inside the `super_hero_showdown` folder by typing `touch power_puff_girls.rb` and then beginning to run the test file repeatedly as you alter code, until you pass the tests one by one. It's up the you, the user, to `touch` that new `.rb` file and you will get an error saying that the test file can not find the proper file required until you create it.
 ONCE AGAIN, DO NOT edit the tests. They have been checked multiple times are written correctly to drive you toward writing the intended code in your own associated `.rb` file.
+Solutions are present but should only be used when stuck on a particular problem. Googling a particular method and talking to other students is recommended before resorting to the answers. The solutions file was created by a student and so solutions might not be perfect and your solution might differ greatly.
 
 ### Have fun!
 These exercises are intended to be fun! That's why I went with a Super Hero theme. You too, soon enough, will be a coding Super Hero.
