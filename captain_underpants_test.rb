@@ -37,7 +37,7 @@ class CaptainUnderpantsTest < Minitest::Test
     hero = CaptainUnderpants.new("Captain Underpants", "Underpants", "Tra La La")
 
     assert_equal "I'm Captain Underpants. I love to wear Underpants. Tra La La", hero.greeting
-    end
+  end
 
   def test_it_can_be_a_different_hero_too
     skip
