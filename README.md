@@ -52,6 +52,7 @@ ArgumentError: wrong number of arguments (given 3, expected 0)
 6 runs, 0 assertions, 0 failures, 1 errors, 5 skips
 ```
 That means everything is ready to go and you can begin coding to pass this test.
+
 4. ONCE AGAIN, DO NOT edit the tests. They have been checked multiple times are written correctly to drive you toward writing the intended code in your own associated `.rb` file.
 
 ### Have fun!
