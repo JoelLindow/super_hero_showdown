@@ -63,3 +63,6 @@ These exercises are intended to be fun! That's why I went with a Super Hero them
 
 #### Joel Lindow
 Software Developer
+
+
+###### Note: Special Thanks to Mason Holland for helping with testing, debugging and refinement of this testing suite.
