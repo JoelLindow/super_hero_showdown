@@ -1,7 +1,7 @@
 gem 'minitest', '~> 5.2'
 require 'minitest/autorun'
 require 'minitest/pride'
-require_relative 'superman'
+require_relative '../lib/superman'
 
 class SupermanTest < Minitest::Test
 
@@ -12,6 +12,7 @@ class SupermanTest < Minitest::Test
   end
 
   def test_it_has_a_secret_identity
+    skip
     hero = Superman.new("Superman", "Clark Kent")
 
     assert_equal "Superman", hero.name
@@ -19,12 +20,14 @@ class SupermanTest < Minitest::Test
   end
 
   def test_superman_has_access_to_the_jail
+    skip
     hero = Superman.new("Superman", "Clark Kent")
 
     assert_equal [], hero.jailed_enemies
   end
 
   def test_superman_can_send_bad_guys_to_jail
+    skip
     hero = Superman.new("Superman", "Clark Kent")
     hero.send_enemy_to_jail("Lex Luthor")
 
@@ -32,6 +35,7 @@ class SupermanTest < Minitest::Test
   end
 
   def test_superman_knows_how_many_enemies_are_in_jail
+    skip
     hero = Superman.new("Superman", "Clark Kent")
 
     assert_equal 0, hero.how_many_enemies_in_jail?
@@ -48,6 +52,7 @@ class SupermanTest < Minitest::Test
   end
 
   def test_superman_can_get_an_alphebetized_list_of_jailed_enemies
+    skip
     hero = Superman.new("Superman", "Clark Kent")
     hero.send_enemy_to_jail("Lex Luthor")
     hero.send_enemy_to_jail("General Zod")
@@ -65,6 +70,7 @@ class SupermanTest < Minitest::Test
   end
 
   def test_superman_can_release_oldest_jailed_enemy
+    skip
     hero = Superman.new("Superman", "Clark Kent")
     hero.send_enemy_to_jail("Lex Luthor")
     hero.send_enemy_to_jail("General Zod")
@@ -85,6 +91,7 @@ class SupermanTest < Minitest::Test
   end
 
   def test_superman_can_release_newest_jailed_enemy
+    skip
     hero = Superman.new("Superman", "Clark Kent")
     hero.send_enemy_to_jail("Lex Luthor")
     hero.send_enemy_to_jail("General Zod")

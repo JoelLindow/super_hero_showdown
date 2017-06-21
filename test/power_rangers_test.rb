@@ -1,7 +1,7 @@
 gem 'minitest', '~> 5.2'
 require 'minitest/autorun'
 require 'minitest/pride'
-require_relative 'power_ranger'
+require_relative '../lib/power_rangers'
 
 class PowerRangerTest < Minitest::Test
 

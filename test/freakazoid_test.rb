@@ -1,12 +1,11 @@
 gem 'minitest', '~> 5.2'
 require 'minitest/autorun'
 require 'minitest/pride'
-require_relative 'freakazoid'
+require_relative '../lib/freakazoid'
 
 class FreakazoidTest < Minitest::Test
 
   def test_it_exists
-    skip
     freak = Freakazoid.new("Dexter Douglas", "IBM 286")
 
     assert_instance_of Freakazoid, freak
@@ -77,7 +76,7 @@ class FreakazoidTest < Minitest::Test
 
     freak.upgrade_to_pentacle_chip
 
-    assert_equal "Awwwwwwwww..... FREAK OUT! *** ZAAAP *** ", freak.freak_out
+    assert_equal "Awwwwwwwww..... FREAK OUT! *** ZAAAP ***", freak.freak_out
     assert_equal "Freakazoid", freak.name
   end
 end
