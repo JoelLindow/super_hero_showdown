@@ -1,0 +1,3 @@
+class CaptainUnderpants
+
+end
