@@ -26,7 +26,7 @@ Super Hero Showdown is a set of exercises designed to help new Ruby programmers 
   - This exercise focuses on learning how to use Hashes as a data structure. Also, how to add items to an existing data structure.
 #### * MORE EXERCISES COMING SOON
 
-#### You will gain the super powers that allow you to:
+### You will gain the super powers that allow you to:
 * Write Ruby Classes that are worthy of the Bat-Computer!
 * Fighting the evils of poorly written code through Test Driven Development!
 * Debug glitchy code using a single error message!
@@ -59,7 +59,7 @@ That means everything is ready to go and you can begin coding to pass this test.
 These exercises are intended to be fun! That's why I went with a Super Hero theme. You too, soon enough, will be a coding Super Hero.
 
 
-#### Thanks for visiting!
+### Thanks for visiting!
 
 #### Joel Lindow
 Software Developer
