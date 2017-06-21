@@ -1,7 +1,7 @@
 gem 'minitest', '~> 5.2'
 require 'minitest/autorun'
 require 'minitest/pride'
-require_relative 'john_wick'
+require_relative '../lib/john_wick'
 
 class JohnWickTest < Minitest::Test
 

@@ -2,7 +2,7 @@
 gem 'minitest', '~> 5.2'
 require 'minitest/autorun'
 require 'minitest/pride'
-require_relative 'batman'
+require_relative '../lib/batman'
 
 class BatmanTest < Minitest::Test
 
@@ -59,8 +59,9 @@ class BatmanTest < Minitest::Test
     assert_equal ["Robin"], hero.sidekicks
   end
 
-skip
+
   def test_batman_can_ask_what_type_of_vehicle_it_is_by_bat_vehicle_name
+    skip
     hero = Batman.new("Ben Afflec", :Gray)
     hero.add_vehicle("Pogo Stick", "Bat-Hopper")
     hero.add_vehicle("Unicycle", "Bat-Uni")

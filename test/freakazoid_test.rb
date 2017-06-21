@@ -1,7 +1,7 @@
 gem 'minitest', '~> 5.2'
 require 'minitest/autorun'
 require 'minitest/pride'
-require_relative 'freakazoid'
+require_relative '../lib/freakazoid'
 
 class FreakazoidTest < Minitest::Test
 

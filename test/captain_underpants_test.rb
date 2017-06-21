@@ -1,7 +1,7 @@
 gem 'minitest', '~> 5.2'
 require 'minitest/autorun'
 require 'minitest/pride'
-require_relative 'captain_underpants'
+require_relative '../lib/captain_underpants'
 
 class CaptainUnderpantsTest < Minitest::Test
 
