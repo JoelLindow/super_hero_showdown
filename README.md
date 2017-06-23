@@ -38,6 +38,8 @@ Super Hero Showdown is a set of exercises designed to help new Ruby programmers 
 * Possibly gain membership to the "Justice-Nerd-League".
 
 ### How to use the exercises
+Watch This: https://youtu.be/_mhpNQy8y6I
+
 1. First make sure to install the Minitest gem (`gem install minitest`). If you're having gem installation issues, follow the error messages and they will guide you to the correct gem installation you may require. These tests only require basic `Minitest` and `Pride`.
 2. The user SHOULD NOT edit the test files. Only "un-skip" the tests one at a time as they write code that makes the tests pass.
 Each challenge will begin at the same place, with an error message looking for the user to create the file they will be coding in. For example, `power_puff_girls_test.rb` will be looking for the user to be coding in a required file called `power_puff_girls` within the `lib` folder. You would create this folder from inside the `super_hero_showdown` folder by typing `touch /lib/power_puff_girls.rb` and then beginning to run the test file repeatedly as you alter code, until you pass the tests one by one. It's up the you, the user, to `touch` that new `.rb` file and you will get an error saying that the test file can not find the proper file required until you create it.
