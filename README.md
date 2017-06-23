@@ -4,7 +4,8 @@
 Super Hero Showdown is a set of exercises designed to help new Ruby programmers learn how to use Ruby through the practice of *test driven development*. User will clone down this folder and use exercises in the following order of difficulty:
 #### * captain_underpants_test.rb
   - Super basic class build! Do it in your undies!
-  - This exercise is a simple place to start learning about Ruby Classes and creating basic class objects with attributes.
+  - This exercise is a simple place to start learning about Ruby Classes and returning hardcoded values.
+  - Watch this video to take the learning further: https://youtu.be/_mhpNQy8y6I
 #### * power_puff_girl_test.rb
   - Let the cuteness launch your learning!
   - This exercise is an introduction to String Interpolation
