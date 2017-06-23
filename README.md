@@ -24,6 +24,10 @@ Super Hero Showdown is a set of exercises designed to help new Ruby programmers 
 #### * batman_test.rb
   - Help Batman add vehicles to his collection and sidekicks to his team!
   - This exercise focuses on learning how to use Hashes as a data structure. Also, how to add items to an existing data structure.
+#### * justice_league_test.rb
+  - A new league of superheros is born! Recruit members to the team!
+  - This exercise focuses on learning how to write a class that requires another class. You will require one class and bring class objects from the `LeagueMember` class into the `members` collection within the Justice League you are creating.
+  - This exercise will also require you to use an enumerator / iterator (`.map`) to return a collection of specific values each member of your league has.
 #### * MORE EXERCISES COMING SOON
 
 ### You will gain the super powers that allow you to:
