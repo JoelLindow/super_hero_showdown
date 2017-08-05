@@ -9,7 +9,7 @@ Super Hero Showdown is a set of exercises designed to help new Ruby programmers 
 #### * power_puff_girl_test.rb
   - Let the cuteness launch your learning!
   - This exercise is an introduction to String Interpolation
-  - Watch this video and let the power of CHEMICAL X take the learning further: https://www.youtube.com/watch?v=Tb_YfXdKEgU
+  - Watch this video and let the power of CHEMICAL X take the learning further: https://youtu.be/Tb_YfXdKEgU
 #### * power_ranger_test.rb
   - It's morphin time! Zordon is calling!
   - This exercise is an introduction to the use of Default Values and Conditional Values.
